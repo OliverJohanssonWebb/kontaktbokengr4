@@ -24,7 +24,15 @@ body
     border-radius: 300px;
     margin-left: 100px;
     margin-right: 100px;
-    font-family: "Lacquer", system-ui;
+    font-family: "Lacquer", system-ui;   
+
+    a {
+        color: white;
+        margin-inline: 40px;
+        text-decoration: none;
+    }
+
+    
 }
 
 .text 
@@ -84,3 +92,4 @@ footer
     color: white;
     font-family: "Lacquer", system-ui;
 }
+
