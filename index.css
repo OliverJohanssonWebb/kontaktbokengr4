@@ -1,0 +1,30 @@
+body
+ {
+            background-color: rgb(113, 192, 209);
+            text-align: center;
+            font-family: Arial, sans-serif;
+
+            h1 
+            {
+                font-size: 50px;
+            }
+        }
+
+
+.person
+{
+    border-radius: 40px;
+    background-color: aquamarine;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
+
+    h2 
+    {
+        font-size: 40px;
+        ;
+    }
+
+    
+}
