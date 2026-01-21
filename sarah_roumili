@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            background-color: rgb(113, 192, 209);
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <body style="background-color: rgb(113, 192, 209);"></body>
+   <h1 style="background-color:rgb(220, 144, 196);">Välkommen till info om Sarah Roumili</h1>
+    <b>Nedan finns lite info om mig:</b>
+    <p>Jag heter Sarah Roumili och jag är 28 år gammal. 
+        <br/>
+        Jag bor i södra Spanien som många av er kanske vet och har gjort det i 4 år nu.
+        <br/>
+    Har tidigare studerat programmering 1 via komvux och det är så jag lärt mig koda, 
+    <br/>
+    sedan har jag väl suttit lite på fritiden och bara lekt runt lite med koder. <portal></portal></p> 
+        <br/>
+        <b>Mina klasskompisar är bra på att:</b>
+<ul>
+    <li>Kommunicera</li>
+    <li>Hjälpas åt</li>
+    <li>Designa hemsidor</li>
+    <li>Vara roliga</li>
+</ul>
+    </p>
+      <br/>
+    <p>För att återgå till mina klasskompisars sida: </p>
+    <a href="index.html">Startsida</a>
+    <p></p>
+    <a href="https://github.com/roumili1997-ui" target="_blank">Min GitHub profil</a>
+    <br/>
+    <img 
+  src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
+  alt="Beach with palm trees"
+  width="860"
+>
+</body>
+</html>
