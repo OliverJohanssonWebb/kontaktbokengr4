@@ -31,6 +31,10 @@ header a {
   padding-right: 15px;
   font-size: 1.2em;
 }
+header h1:hover {
+  scale: 1.1;
+  color: rgb(216, 209, 209);
+}
 header li:hover {
   scale: 1.1;
 }
@@ -47,43 +51,42 @@ header a:hover {
   background-position: top;
   background-repeat: no-repeat;
 }
-section{
-    border: 2px solid grey;
-    border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 70%;
-    margin: 40px auto;
-    padding: 10px;
+section {
+  border: 2px solid grey;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin: 40px auto;
+  padding: 10px;
+}
+section p {
+  font-size: 1.2em;
+}
+section li {
+  font-size: 1.2em;
+}
 
-}
-section p{
-    font-size: 1.2em;
-}
-section li{
-    font-size: 1.2em;
-}
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 1;
 
-footer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    bottom: 1;
+  background-color: rgb(47, 62, 70);
+  height: 100px;
+  width: 100%;
 
-    background-color: rgb(47, 62, 70);
-    height: 100px;
-    width: 100%;
-
-    color: rgb(234, 224, 213);
+  color: rgb(234, 224, 213);
 }
-footer img{
-    padding-right: 5px;
-    height: 40px;
-    width: 40px;
+footer img {
+  padding-right: 5px;
+  height: 40px;
+  width: 40px;
 }
-footer a{
-    color: white;
+footer a {
+  color: white;
 }
