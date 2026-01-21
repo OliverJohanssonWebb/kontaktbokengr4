@@ -9,15 +9,24 @@
         body {
             background-color: rgb(113, 192, 209);
             text-align: center;
-            font-family: Arial, sans-serif;
+            font-family: 'Times New Roman', Times, serif, sans-serif;
         }
+        ul {
+    list-style: none;
+    padding: 0;
+}
+
+li::before {
+    content: "♥ ";
+    color: hotpink;
+}
     </style>
 </head>
 
 <body>
     <body style="background-color: rgb(113, 192, 209);"></body>
    <h1 style="background-color:rgb(220, 144, 196);">Välkommen till info om Sarah Roumili</h1>
-    <b>Nedan finns lite info om mig:</b>
+   <h1 style="border:2px solid Violet;">Nedan finns lite info om mig:</h1>
     <p>Jag heter Sarah Roumili och jag är 28 år gammal. 
         <br/>
         Jag bor i södra Spanien som många av er kanske vet och har gjort det i 4 år nu.
@@ -26,12 +35,13 @@
     <br/>
     sedan har jag väl suttit lite på fritiden och bara lekt runt lite med koder. <portal></portal></p> 
         <br/>
-        <b>Mina klasskompisar är bra på att:</b>
+        <b>Vad jag är bra på:</b>
+
 <ul>
     <li>Kommunicera</li>
-    <li>Hjälpas åt</li>
-    <li>Designa hemsidor</li>
-    <li>Vara roliga</li>
+    <li>Vara trevlig</li>
+    <li>Rolig</li>
+    <li>Dricka cerveza på stranden</li>
 </ul>
     </p>
       <br/>
