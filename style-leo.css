@@ -13,12 +13,12 @@ header {
   height: 150px;
   align-items: center;
   justify-content: space-between;
-  background-color:rgb(47, 62, 70);
+  background-color: rgb(47, 62, 70);
 }
 
 header h1 {
   color: rgb(234, 224, 213);
-  padding-left: 5px;
+  padding-left: 15px;
 }
 header ul {
   list-style: none;
@@ -28,7 +28,8 @@ header ul {
 header a {
   color: rgb(234, 224, 213);
   text-decoration: none;
-  padding-right: 5px;
+  padding-right: 15px;
+  font-size: 1.2em;
 }
 header li:hover {
   scale: 1.1;
@@ -38,11 +39,51 @@ header a:hover {
 }
 .hero {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
 
-  background-image: url("about-img.svg");
+  background-image: url("images/about-img.svg");
   min-height: 200px;
-  background-position:top;
+  background-position: top;
   background-repeat: no-repeat;
+}
+section{
+    border: 2px solid grey;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: 40px auto;
+    padding: 10px;
+
+}
+section p{
+    font-size: 1.2em;
+}
+section li{
+    font-size: 1.2em;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 1;
+
+    background-color: rgb(47, 62, 70);
+    height: 100px;
+    width: 100%;
+
+    color: rgb(234, 224, 213);
+}
+footer img{
+    padding-right: 5px;
+    height: 40px;
+    width: 40px;
+}
+footer a{
+    color: white;
 }
