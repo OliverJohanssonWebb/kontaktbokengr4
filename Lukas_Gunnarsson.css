@@ -1,5 +1,5 @@
 header{
-    background-color: rgba(43, 77, 10, 0.925);
+    background-color: white;
     text-align: center;
     padding: 5px;
     color: black
@@ -14,17 +14,20 @@ nav a {
 }
 
 img {
+    position: absolute;
+    top: 100px;
+    left: 500px;
     max-width: 500px;
     height: auto;
     margin-bottom: 20px;
-
-    
+    display: block;
 }
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    color: white;
-    background-color: #000000;
+    color: black;
+    background-color: rgb(113, 192, 209);
     
 }
 footer {
