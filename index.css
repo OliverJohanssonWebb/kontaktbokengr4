@@ -1,3 +1,7 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&family=Lobster&family=UnifrakturMaguntia&display=swap');
+
 body
  {
             background-color: rgb(113, 192, 209);
@@ -7,6 +11,7 @@ body
             h1 
             {
                 font-size: 50px;
+                font-family: 'Lobster', cursive;
             }
         }
 
@@ -14,7 +19,7 @@ body
 .person
 {
     border-radius: 40px;
-    background-color: aquamarine;
+    background-color: rgb(38, 179, 214);
     margin-top: 100px;
     margin-bottom: 50px;
     margin-left: 400px;
@@ -23,8 +28,14 @@ body
     h2 
     {
         font-size: 40px;
-        ;
+        font-family: 'Lobster', cursive;
     }
-
+    
+    a 
+    {
+        text-decoration: none;
+        color: black;
+        font-family: 'Lobster', cursive;
+    }
     
 }
